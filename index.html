@@ -54,14 +54,46 @@
     <main role="main" class="flex-shrink-0">
         <div class="container">
             <h1 class="mt-5">Les commandes Git pour les nuls</h1>
-            <p class="lead">Première commande GIT</p>
-            <p class="lead">Deuxième commande GIT</p>
         </div>
+        <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Commande</th>
+                <th scope="col">Options</th>
+                <th scope="col">Exemple d'utilisation</th>
+                <th scope="col">Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Add</td>
+                <td></td>
+                <td>git add . ; git add index.html</td>
+                <td>Ajoute les changements pour qu'ils soient enregistrés</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Commit</td>
+                <td>-m, -a</td>
+                <td>git -ma "Ajout du contenu dans index.html"</td>
+                <td>Enregistre les changements ajoutés</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Init</td>
+                <td></td>
+                <td>git init</td>
+                <td>Initialise le répertoire courant comme projet à versioner</td>
+              </tr>
+            </tbody>
+          </table>
     </main>
 
     <footer class="footer mt-auto py-3">
         <div class="container">
-            <span class="text-muted">Copyright FullSlack Developper.</span>
+            <span class="text-muted">Copyright 2020FullSlack Developper</span>
         </div>
     </footer>
 
@@ -76,5 +108,4 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
 </body>
-
 </html>
